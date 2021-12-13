@@ -42,4 +42,5 @@ int main(void)
       totalMoney = totalMoney - (oneBanknote * 1);
 
       printf("Hundered Banknote --> %d\nFifty Banknote --> %d\nTwenty Banknote --> %d\nTen Banknote --> %d\nFive Banknote --> %d\nTwo Banknote --> %d\nOne Banknote --> %d\n", hundredBanknote, fiftyBanknote, twentyBanknote, tenBanknote, fiveBanknote, twoBanknote, oneBanknote);
+      return 0;
 }
