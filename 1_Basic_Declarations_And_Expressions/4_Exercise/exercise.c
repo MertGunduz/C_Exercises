@@ -13,4 +13,5 @@ int main(void)
       printf("\n");
 
       printf("Hello %s!", userName); 
+      return 0;
 } 

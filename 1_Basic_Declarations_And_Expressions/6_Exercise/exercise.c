@@ -16,5 +16,5 @@ int main(void)
 
       printf("Circle Perimeter --> %f\n", 2 * PI * radius);
       printf("Circle Area --> %f\n", PI * radius * radius);
-
+      return 0;
 }

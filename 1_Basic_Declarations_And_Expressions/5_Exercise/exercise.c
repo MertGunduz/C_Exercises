@@ -13,5 +13,5 @@ int main(void)
       printf("\n");
 
       printf("Square Area --> %d", squareEdge * squareEdge);
-      
+      return 0;
 }

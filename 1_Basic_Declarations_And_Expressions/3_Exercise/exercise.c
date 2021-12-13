@@ -10,4 +10,5 @@ int main(void)
       char thirdChar = 'L';
 
       printf("%c%c%c", firstChar, secondChar, thirdChar);
+      return 0;
 }
