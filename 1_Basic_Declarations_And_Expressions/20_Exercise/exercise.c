@@ -7,6 +7,7 @@ int main(void)
 
       int arr[6];
       int smallestNumber;
+      int position;
 
       for (int i = 0; i < 6; i++)
       {
@@ -23,10 +24,11 @@ int main(void)
             if (smallestNumber > arr[i])
             {
                   smallestNumber = arr[i];
+                  position = i;
             }
       }
 
-      printf("Smalles Number --> %d\n", smallestNumber);
+      printf("Smallest Number --> %d\nPosition --> %d\n", smallestNumber, position);
 
       return 0;
 }
